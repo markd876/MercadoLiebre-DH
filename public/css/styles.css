@@ -1,0 +1,78 @@
+/*  Paleta de colores
+    Amarillo: #EAC926;
+    Azul: #03264C;
+    Celeste: #1259c3;
+    Gris oscuro: #666;
+    Gris claro: #ebebeb;
+    Verde: #39b54a;
+
+    Tamaños Tipográficos
+    Cuerpos de texto: 12px
+    Titulares (Basado en tu última visita/Ofertas): 24px
+    Precios: 18px
+    Descuentos: 16px
+    Descripciones: 16px
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    background-color: #EAC926;
+}
+.texto{
+    font-size: 12px;
+}
+.titulares{
+    font-size: 24px;
+}
+.precios{
+    font-size: 18px;
+}
+.descuentos{
+    font-size: 16px;
+}
+.descripciones{
+    font-size: 16px;
+}
+.button-buscar{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+.button-buscar i{
+    background-color: white;
+}
+.cuotas-header{
+    text-align: center;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+.menu-header{
+    margin-bottom: 25px;
+}
+.text-menu{
+    display: flex;
+    flex-direction: row;
+}
+.burguer-menu{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.burguer-menu i{
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    background-color: blue;
+}
+.footer-section{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.footer-section i{
+    color: rgb(11, 49, 219);
+}
