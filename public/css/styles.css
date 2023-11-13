@@ -26,10 +26,6 @@ body{
 main{
     background-color: #ebebeb;
 }
-.img-header{
-    width: 100%;
-    height: auto;
-}
 .container{
     width: 90vw;
     margin-left: 5%;
@@ -43,8 +39,16 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 20px;
+    height: 150px;
+    box-sizing: border-box;
 }
-.header-container img{
+.header-container a img{
+    height: 100px;
+}
+.header-container a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-basis: 33%;
 }
 
@@ -430,7 +434,7 @@ main{
         width: 100%;
     }
     .header-container img{
-        width: 50%;
+        width: 100%;
     }
     .header-container img, .buscar{
         flex-basis: 30%;
@@ -500,6 +504,15 @@ main{
     
 }
 @media (max-width: 1179px){
+    .header-container a{
+        flex-basis: 33%;
+    }
+    .buscar{
+        flex-basis: 33%;
+    }
+    .cuotas-header{
+        flex-basis: 33%;
+    }
     .form-login-email-password input{
         width: 55%;
     }
